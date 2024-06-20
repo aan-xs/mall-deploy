@@ -242,10 +242,12 @@
 													<span class="caret"></span> <span class="sr-only">Toggle Dropdown</span>
 												</button>
 												<ul class="dropdown-menu" role="menu" style="overflow:scroll;height:180px;">
-
+	<c:if test="${security.isRolesAccessible('ROLE_ROOT,ROLE_ADMIN')}">
 													<li><a href="<%=basePath%>normal/adminUserAction!toUpdate.action?id=${item.id}&name_para=${item.name_para}&rolename_para=${item.rolename_para}">修改</a></li>
-													<li><a href="<%=basePath%>normal/adminUserAction!toUpdateUserAddress.action?id=${item.id}">编辑收货地址</a></li>
 													<li><a href="javascript:reset('${item.id}')">修改账户余额</a></li>
+													</c:if>
+													<li><a href="<%=basePath%>normal/adminUserAction!toUpdateUserAddress.action?id=${item.id}">编辑收货地址</a></li>
+													
 													<li><a href="javascript:integral('${item.id}','${item.usercode}','${item.username_hide}','${item.activityPoints}')">修改积分</a></li>
 													<li><a href="javascript:updatePhone('${item.id}')">修改手机账号</a></li>
 													<li><a href="javascript:updateEmail('${item.id}','${item.email}')">修改邮箱账号</a></li>

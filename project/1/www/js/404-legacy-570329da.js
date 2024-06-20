@@ -1,0 +1,1 @@
+System.register(["./index-legacy-12f59ca9.js"],(function(e,r){"use strict";var t,u,n;return{setters:[e=>{t=e._,u=e.c,n=e.o}],execute:function(){e("default",t({},[["render",function(e,r){return n(),u("div",null," 404 ")}],["__file","D:/Users/zq/zq/mall-app-h5-vue/mall-app-h5-vue/src/views/404.vue"]]))}}}));

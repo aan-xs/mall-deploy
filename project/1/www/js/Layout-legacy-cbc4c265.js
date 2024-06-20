@@ -1,0 +1,1 @@
+System.register(["./index-legacy-8819b039.js"],(function(e,t){"use strict";var r,u,s,n;return{setters:[e=>{r=e._,u=e.aw,s=e.z,n=e.o}],execute:function(){e("default",r({},[["render",function(e,t){const r=u("router-view");return n(),s(r)}],["__file","D:/Users/zq/zq/mall-app-h5-vue/mall-app-h5-vue/src/views/Layout.vue"]]))}}}));
