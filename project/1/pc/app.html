@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://www.asiaex-pro.com/web/down/hb -->
+<html lang="en" data-dpr="1" class="no-touch" style="font-size: 50px;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<script>
+			(function(doc, win) {
+            var docEl = doc.documentElement,
+                    isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+                    dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
+                    dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
+                    dpr = 1,
+                    scale = 1 / dpr,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            docEl.dataset.dpr = dpr;
+            var metaEl = doc.createElement('meta');
+            metaEl.name = 'viewport';
+            metaEl.content = 'initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale;
+            docEl.firstElementChild.appendChild(metaEl);
+            var recalc = function() {
+                var width = docEl.clientWidth;
+                if (width / dpr > 750) {
+                    width = 750 * dpr;
+                }
+                // 乘以100，px : rem = 100 : 1
+                docEl.style.fontSize = 100 * (width / 750) + 'px';
+            };
+            recalc()
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body{background-color: white;}
+
+			.part1 {
+				width: 100%;
+				height: 12.7rem
+			}
+
+			.part2 {
+				margin-bottom: 1rem;
+			}
+
+			.bg {
+				width: 100%;
+			}
+
+			.cnen {
+				width: 100%;
+				text-align: center;
+				position: fixed;
+				top: .4rem;
+				right: 0rem;
+				color: #000000;
+				font-size: .2rem;
+			}
+
+			.cnen a {
+				color: #000000;
+				margin: .2rem .3rem;
+				text-decoration: none;
+			}
+
+			.part1_con {
+				width: 100%;
+				height: 12.7rem;
+				position: absolute;
+				top: 1px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.logo1 {
+				width: 3rem;
+				height: 1rem;
+				margin: .89rem 0 .39rem 0
+			}
+
+			.logo2 {
+				width: 3.49rem;
+				margin-bottom: .52rem;
+			}
+
+			.p1 {
+				color: #fff;
+				font-size: .36rem;
+			}
+
+			.p2 {
+				color: #fff;
+				font-size: .5rem;
+				margin-top: .38rem;
+				margin-bottom: .55rem;
+			}
+
+			.p3 {
+				color: #A797FA;
+				font-size: .2rem;
+				margin-bottom: .1rem;
+
+			}
+
+			.download {
+				width: 5rem;
+				margin-top: 7.5rem;
+
+			}
+
+			.li {
+				/* display: flex; */
+				width: 100%;
+				justify-content: space-between;
+			}
+			.li a{
+				display: block;
+				width: 4.6rem;
+				height: 1.1rem;
+				line-height: 1.1rem;
+				margin: 0 auto .65rem;
+				font-size: 14px;
+				text-align: center;
+				background: linear-gradient(90deg, #383730 0%, #383730 100%);
+				border-radius: 0rem;
+				color: white;
+				text-decoration: none;
+			}
+
+			.li img {
+				width: 2.4rem;
+				height: .63rem;
+				margin: .1rem 0;
+			}
+
+			.p4 {
+				color: #4174BB;
+				font-size: .26rem;
+				margin-top: .7rem
+			}
+
+			.part2_1 {
+				display: flex;
+				justify-content: space-around;
+				margin-top: .82rem;
+				margin-bottom: .95rem;
+
+			}
+
+			.part2_1 div {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.part2_1 img {
+				width: 1.39rem;
+				height: 1.39rem;
+			}
+
+			.part2_1 p {
+				font-size: .22rem;
+				color: #999999;
+			}
+
+			.part2_2 {
+				border-bottom: 1px solid #F3F3F3;
+				height: .6rem;
+
+				width: 92%;
+				margin: auto;
+				margin-bottom: .2rem;
+			}
+
+			.title {
+				font-size: .36rem;
+				font-weight: bold;
+				color: #8375CA;
+				/*width:1.5rem;*/
+				height: .6rem;
+				border-bottom: 2px solid #8375CA;
+			}
+
+			.intro {
+
+				width: 86%;
+				padding: 3%;
+				margin: 0 auto;
+				background: #F3F3F3;
+				color: #999999;
+				font-size: .24rem;
+			}
+
+			.p5 {
+				color: #000000;
+				font-size: .34rem;
+
+				margin: .44rem 0 .2rem .3rem
+			}
+
+			.ios {
+				width: 82%;
+				margin: 0 auto;
+				line-height: .6rem;
+				font-size: .28rem;
+				color: #666666;
+			}
+
+			.course {
+				display: flex;
+				justify-content: space-between;
+				margin-top: .36rem;
+			}
+
+			.course img {
+				width: 3.6rem;
+				height: 5.74rem;
+			}
+
+			.part3 {
+				width: 100%;
+				height: 3.82rem;
+				position: relative;
+				margin-top: .8rem;
+			}
+
+			.bg2 {
+				width: 100%;
+				height: 3.82rem;
+			}
+
+			.bottom {
+				position: absolute;
+				padding-top: .99rem;
+				top: 0;
+				width: 100%;
+				height: 3.82rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.p6 {
+				font-size: .26rem;
+				color: #FFf;
+				margin-bottom: .2rem;
+			}
+
+			.p7 {
+				font-size: .24rem;
+				color: #FFf;
+			}
+			.part-dw{width: 100%;font-size: 16px;text-align: center;color: #383730;}
+			.part-dw .logo-img{width: 180px;margin: 50px 0;}
+			.part-dw .dw-img{width: 200px;margin-top: 40px;}
+		</style>
+		</head>
+	<body>
+		<div id="part-dw" class="part-dw">
+			<img class="logo-img" src="images/logo.png" alt="">
+			<div>Please scan the QR code with your mobile phone</div>
+			<img class="dw-img" src="images/dw.png" />
+		</div>
+		<div id="part1" class="part1">
+			<img class="bg" src="images/xz_bg.png" alt="">
+			<div class="part1_con">
+				<div class="cnen"><a href="app-ft.html">繁體</a> | <a href="app.html">English</a></div>
+				
+				<div class="download">
+					<div class="li">
+						<a href="https://mall2.98kteam.com/ios.mobileconfig">
+							IOS seller download
+						</a>
+						<a href="https://mall2.98kteam.com/Android.apk">
+							Android seller download
+						</a>
+
+
+						<a id="add-to" href="h5地址">
+							Desktop sign
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var issafariBrowser = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
+			if (issafariBrowser) {
+				document.getElementById("add-to").style.display = "block"
+			} else {
+				document.getElementById("add-to").style.display = "none"
+			}
+			
+			// 判断浏览器函数
+			function isMobile(){
+				if(window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
+					document.getElementById("part1").style.display = "block"
+					document.getElementById("part-dw").style.display = "none"
+					// 移动端
+				}else{
+					document.getElementById("part1").style.display = "none"
+					document.getElementById("part-dw").style.display = "block"
+					// PC端
+				}
+			}
+			isMobile();
+		</script>
+
+	</body>
+</html>

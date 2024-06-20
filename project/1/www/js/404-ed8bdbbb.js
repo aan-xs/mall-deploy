@@ -1,0 +1,1 @@
+import{_ as e,c,o as a}from"./index-d71e1836.js";const n={};function r(s,_){return a(),c("div",null," 404 ")}const o=e(n,[["render",r],["__file","D:/caishen/mall-app-h5-vue/mall-app-h5-vue/src/views/404.vue"]]);export{o as default};

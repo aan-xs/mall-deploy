@@ -1,0 +1,1 @@
+System.register(["./index-legacy-e50317c7.js"],(function(e,t){"use strict";var n,r,u;return{setters:[e=>{n=e._,r=e.c,u=e.o}],execute:function(){e("default",n({},[["render",function(e,t){return u(),r("div",null," 404 ")}],["__file","D:/caishen/mall-app-h5-vue/mall-app-h5-vue/src/views/404.vue"]]))}}}));

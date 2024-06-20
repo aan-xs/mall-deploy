@@ -1,0 +1,1 @@
+import{_ as o,aw as a,z as r,o as t}from"./index-d71e1836.js";const c={};function n(s,_){const e=a("router-view");return t(),r(e)}const u=o(c,[["render",n],["__file","D:/caishen/mall-app-h5-vue/mall-app-h5-vue/src/views/Layout.vue"]]);export{u as default};
